@@ -1,13 +1,4 @@
-//add shadow to navbar on scroll down
-$(window).scroll(function() {     
-    var scroll = $(window).scrollTop();
-     if (scroll > 15) {
-        $(".navbar").addClass("navbarShadow");
-    }
-    else {
-        $(".navbar").removeClass("navbarShadow");
-    }
-});
+//add shadow to navbar on scroll down 
 
 
 
